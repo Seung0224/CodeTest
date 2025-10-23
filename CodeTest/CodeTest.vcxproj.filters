@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stack (같은 숫자는 싫어).cpp">
+    <ClCompile Include="CODE_TEST.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
