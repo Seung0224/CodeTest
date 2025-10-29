@@ -2,14 +2,13 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
-int main()
+void main()
 {
-
     system("pause");
-	return 0;
 }
 
 
@@ -166,5 +165,29 @@ int main()
     system("pause");
     return 0;
 }
+*/
+#pragma endregion
+
+
+#pragma region 3. 완주하지 못한 선수
+/*
+
+    vector<string> participant = { "mislav", "stanko", "mislav", "ana" };
+    vector<string> completion = { "stanko", "ana", "mislav" };
+
+    unordered_map<string, int> hash;
+
+    for (auto p : participant) hash[p]++;
+    for (auto c : completion)  hash[c]--;
+
+    for (auto h : hash) {
+        if (h.second > 0) {
+            cout << h.first << endl;
+            break;
+        }
+    }
+
+    system("pause");
+
 */
 #pragma endregion
